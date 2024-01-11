@@ -46,13 +46,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 cells[a].style.backgroundImage === cells[b].style.backgroundImage &&
                 cells[a].style.backgroundImage === cells[c].style.backgroundImage) {
                 winner = currentPlayer;
-                result.textContent = `Player ${winner} wins!`;
+                result.textContent = `Player ${winner} wins👍`;
                 return;
             }
         }
 
         if (isBoardFull()) {
-            result.textContent = "It's a draw!";
+            result.textContent = "It's a draw👌";
             return;
         }
     }
